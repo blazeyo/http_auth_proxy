@@ -1,6 +1,6 @@
 {
   "name": "http_auth_proxy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Proxies requests via http-authenticated channel.",
   "main": "lib/index.js",
   "scripts": {
