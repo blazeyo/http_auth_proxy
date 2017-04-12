@@ -19,7 +19,7 @@
     "url": "https://github.com/blazeyo/http_auth_proxy/issues"
   },
   "bin": {
-    "http-auth-proxy" : "./index.js"
+    "http-auth-proxy": "./index.js"
   },
   "homepage": "https://github.com/blazeyo/http_auth_proxy#readme",
   "author": "Błażej Owczarczyk",
