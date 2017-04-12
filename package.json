@@ -1,0 +1,30 @@
+{
+  "name": "http_auth_proxy",
+  "version": "1.0.0",
+  "description": "Proxies requests via http-authenticated channel.",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/blazeyo/http_auth_proxy.git"
+  },
+  "keywords": [
+    "cors",
+    "http",
+    "auth"
+  ],
+  "bugs": {
+    "url": "https://github.com/blazeyo/http_auth_proxy/issues"
+  },
+  "homepage": "https://github.com/blazeyo/http_auth_proxy#readme",
+  "author": "Błażej Owczarczyk",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "readline-sync": "^1.4.7",
+    "request": "^2.81.0"
+  }
+}
