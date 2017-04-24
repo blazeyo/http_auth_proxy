@@ -4,7 +4,8 @@ const cors = require('cors')
 const readlineSync = require('readline-sync');
 
 const port = process.env.PORT || 3001;
-const host = readlineSync.question('Host (without trailing slash): ');
+// Remove the trailing slash.
+const host = readlineSync.question('Host: ').replace(/\/$/, "");
 const username = readlineSync.question('HTTP auth username: ');
 const password = readlineSync.question('HTTP auth password: ', {
   hideEchoBack: true,
